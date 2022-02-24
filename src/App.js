@@ -1,7 +1,10 @@
+import ExpenseItem from "./components/ExpenseItem";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello world!</h1>
+      <h2>Hello world!</h2>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
 }
